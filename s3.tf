@@ -24,7 +24,7 @@ status = "Enabled"
 }
 terraform {
 backend "s3" {
-region = "us-east-1"
+region = "us-east-2"
 bucket = "sai7997"
 key = "prod/terraform.tfstate"
 }
